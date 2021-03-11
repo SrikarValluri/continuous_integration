@@ -16,3 +16,7 @@ class TestCalculator:
 
     def test_multiply(self):
         assert 2 == calculator.multiply(1, 2)
+
+    def test_multiply2(self):
+        assert 100 == calculator.multiply(10, 10)
+
